@@ -3,4 +3,66 @@
   <groupId>Cooltester</groupId>
   <artifactId>Selenium_Curso2</artifactId>
   <version>0.0.1-SNAPSHOT</version>
+  
+<dependencias>
+ 
+ <!-- Selenio --> 
+ <dependencia> 
+			<groupId>org.seleniumhq.selenium</groupId>
+			<artifactId>selenium-java</artifactId>
+ <versión>3.141.59</versión> 
+ </dependencia> 
+ 
+ <!-- controlador de Chrome --> 
+ <dependencia> 
+			<groupId>org.seleniumhq.selenium</groupId>
+			<artifactId>selenium-chrome-driver</artifactId>
+ <versión>3.141.59</versión> 
+ </dependencia> 
+ 
+		<!-- ORG JSON -->
+ <dependencia> 
+			<groupId>org.json</groupId>
+			<artifactId>json</artifactId>
+ <versión>20170516</versión> 
+ </dependencia> 
+ 
+ <!-- Dependencia de Google Json --> 
+ <dependencia> 
+			<groupId>com.google.code.gson</groupId>
+			<artifactId>gson</artifactId>
+ <versión>2.8.1</versión> 
+ </dependencia> 
+ 
+ <!-- Imágenes --> 
+ <dependencia> 
+			<groupId>ru.yandex.qatools.ashot</groupId>
+			<artifactId>ashot</artifactId>
+ <versión>1.5.4</versión> 
+ </dependencia> 
+ 
+		<!-- Apache Excel -->
+ <dependencia> 
+			<groupId>org.apache.poi</groupId>
+			<artifactId>poi-ooxml</artifactId>
+ <versión>3.17</versión> 
+ </dependencia> 
+ 
+ <!-- Ejecutar TestNG Jenkins --> 
+ <dependencia> 
+			<groupId>org.testng</groupId>
+			<artifactId>testng</artifactId>
+ <versión>6.14.3</versión> 
+ <scopio>compilar</alcance> 
+ </dependencia> 
+ 
+ <!-- Dependencia del informe extendido --> 
+ <dependencia> 
+			<groupId>com.relevantcodes</groupId>
+			<artifactId>extentreports</artifactId>
+ <versión>2.41.2</versión> 
+ </dependencia> 
+ 
+ </dependencias>
+ 
 </project>
